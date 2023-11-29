@@ -508,7 +508,7 @@ ggplot(mpg) +
 
 16. __Notice that there are empty cells in the bottom left facets above. What do you think this means?__
 
-```{r, include = params$answers}
+```{r}
 # There are no rear-wheel drives that have 4 cyclinders, so there is nothing to plot here.
 ```
 
