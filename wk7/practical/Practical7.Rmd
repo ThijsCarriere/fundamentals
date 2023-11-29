@@ -236,7 +236,7 @@ plot(fit2, which = c(4, 5))
 
 ## Differences to linear regressoin
 
-Lastly, it is important to note that the assumptions of a linear regression do not *all* map to logistic regression. In logistic regression, we do not need:
+Lastly, it is important to note that the assumptions of a linear regression do not *all* map to logistic regression. The following two assumptions from linear regression **DO NOT APPLY** to logistic regression:
 
 * constant, finite error variance
 * normally distributed errors
@@ -401,7 +401,7 @@ The `confusionMatrix()` function from the `caret` package can do a lot of this f
 
 * `data` - a vector of predicted classes (in factor form)
 * `reference` - a vector of true classes (in factor from)
-* `positive` - a character string indicating the 'positive' outcome. If not specified, the confusion matrix assumes that the first specified category is the positive outcome.
+* `positive` - a character string indicating the 'positive' outcome (predicted as 1). If not specified, the confusion matrix assumes that the first specified category is the positive outcome.
 
 You can type `??confusionMatrix` into the console to learn more. 
 
